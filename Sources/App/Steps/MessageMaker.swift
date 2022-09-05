@@ -27,7 +27,7 @@ fileprivate let stepData = ExportHTML_stepData.instance
 struct ExportHTML_stepData: StepData {
     
     static let instance = ExportHTML_stepData()
-    var stepDescription = "Transform TR to HTML."
+    var stepDescription = "Create a message."
     
     // Add non-static members of type Message here for all messages.
     // Only non-static members will be collected for the overview!

@@ -15,3 +15,5 @@ In addition to using a workflow, this app shows:
 - How to use additional arguments (e.g. the `--log` argument).
 - How to differentiate between development and productive mode.
 - How to log to a file.
+
+This example library does not use any asynchronous step, see the documentation of the [Workflow](https://github.com/stefanspringer1/SwiftWorkflow.git) framework and the [SwiftWorkflowExampleProgram](https://github.com/stefanspringer1/SwiftWorkflowExampleProgram) for the example of an asynchronous step and how to use it.

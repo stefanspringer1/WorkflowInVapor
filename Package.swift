@@ -9,8 +9,8 @@ let package = Package(
     dependencies: [
         // 💧 A server-side Swift web framework.
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
-        .package(url: "https://github.com/stefanspringer1/SwiftWorkflow", from: "0.0.33"),
-        .package(url: "https://github.com/stefanspringer1/SwiftLoggingBindingForWorkflow.git", from: "0.0.6"),
+        .package(url: "https://github.com/stefanspringer1/SwiftWorkflow", from: "0.0.105"),
+        .package(url: "https://github.com/stefanspringer1/SwiftLoggingBindingForWorkflow.git", from: "0.0.8"),
         .package(url: "https://github.com/tctony/FileLogHandler.git", from: "0.1.0"),
     ],
     targets: [

@@ -11,11 +11,11 @@ import Workflow
 func messageMaker_step(
     during execution: Execution,
     usingExecutionDatabase executionDatabase: ExecutionDatabase
-) async -> String {
+) -> String {
     var message = ""
-    await execution.effectuate(executionDatabase, #function) {
+    execution.effectuate(executionDatabase, #function) {
         message = "It works!"
-        await execution.log(stepData.createdMessage, message)
+        execution.log(stepData.createdMessage, message)
     }
     return message
 }
